@@ -1,0 +1,110 @@
+/* Context Section */
+.context {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.context h1 {
+    font-size: 2.5rem;
+    color: #0056a1;
+    margin-bottom: 20px;
+}
+
+.context p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.context .animated-text {
+    animation: slideIn 1.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056a1;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #003d7a;
+    transform: scale(1.05);
+}
+
+.highlight-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.context-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+}
+
+.actions {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.actions h2 {
+    font-size: 2rem;
+    color: #0056a1;
+    margin-bottom: 20px;
+}
+
+.actions p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.actions .cta-button {
+    margin-top: 20px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
